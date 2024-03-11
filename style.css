@@ -1,0 +1,293 @@
+
+body{
+    margin: 0px;
+    background-color: #232323;
+
+}
+.background{
+    position: relative;
+background-image: url(image/NG-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+background-size: cover;
+
+height: 700px;
+z-index: .5;
+background-repeat: no-repeat;
+font-weight: 700;
+}
+.background::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0, 0.50);
+
+}
+
+.logo-box{
+   
+     /* background-color: yellow;  */
+}
+.sign-btn{
+    background-color: red;
+    font-size: 17px;
+    font-family: Montserrat;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border-radius: 5px 5px;
+    
+}
+.logo1-box{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 8rem;
+}
+.big-cnt{
+    /* background-color: aqua; */
+    font-family: Montserrat;
+     font-size: 45px;
+     font-weight: 800;
+     color: #fff;
+     text-align: center;
+     letter-spacing:0rem;
+ padding-top: 10rem; 
+ margin-bottom: 0px;
+
+
+}
+.cont{
+    font-family: Montserrat;
+font-size:19px ;
+font-weight: 500;
+text-align: center;
+line-height: 55px;
+color: #fff;
+}
+.email{
+    font-family: Montserrat;
+    padding: 1rem 11rem;
+    background-color: transparent;
+ font-size: 18px;
+ font-weight: 300;
+ padding-left: 1rem; 
+   border:0.5px solid white;
+ border-radius: 5px 5px;
+}
+::placeholder{
+    color: #fff;
+    opacity: 80%;
+    font-size: 1rem;
+}
+.get-started{
+ background-color:#FF0000;    
+ font-family: Montserrat;
+font-size: 25px;
+font-weight: 600;
+letter-spacing: 0px;
+text-align: center;
+padding: .8rem 1.8rem;
+text-decoration: none;
+border-radius: 7px 7px;
+}
+.a-nav{
+    text-decoration: none;
+    color: white;
+}
+.buttons{
+    display: flex;
+    gap: 8px;
+justify-content: center;
+}
+.hr{
+    height: 8px;
+    background-color:gray;
+    margin-top:-10px;
+}
+.my{
+    /* background-color: greenyellow; */
+margin-bottom: -1rem;
+}
+.background-2{
+    position: relative;
+    padding: 8rem;
+    background-color:black;
+    background-size: cover;
+    background-repeat: no-repeat;
+     z-index: 1;
+    
+} 
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.big-e{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 0px;
+    color:white;
+}
+.watch{
+font-size: 22px;
+font-family: Montserrat;
+color: #fff;
+
+}
+.background-3{
+    position: relative;
+    height: 550px;
+    background-color:black;
+    background-size: cover;
+    background-repeat: no-repeat;
+     z-index: 1;
+    /* background-color: aqua; */
+}
+.phone{
+    display: flex;
+     justify-content: space-between; 
+    padding: 6rem 9rem;
+}
+.cnt-big{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0px; 
+   color: #fff;
+}
+.cnt-small{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #fff;
+}
+.imge{
+    padding-top: 1rem;
+}
+.background-4{
+    padding: 5rem;
+    position: relative;
+    height: 400px;
+    background-color:black;
+     background-size: cover;
+    background-repeat: no-repeat;
+     z-index: 1; 
+     padding-left: 16rem;
+}
+    
+.big-con{
+    font-family:Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.small-cn{
+    font-family:Montserrat;
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+}
+.background-5{
+    background-color: black; 
+    /* background-color: aqua; */
+    height: 400px ;
+    padding: 5rem 8rem;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.cnt1-big{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0px; 
+    color: #fff;
+}
+.cnt1-small{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #fff;
+}
+h1{
+    color: #fff;
+}
+.container-sec{
+background-color: black;
+padding: 0rem 10rem 4rem;
+text-align: center;
+font-family:Montserrat ;
+justify-content: center;
+
+}
+h1{
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    font-weight: 800;
+}
+.tables{
+    background-color: #232323;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    justify-content: space-between;
+   border: 0px;
+   margin-bottom;
+   font-size: 23px;
+   font-family:Montserrat ;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+.tables:hover{
+    background-color: #414141;
+}
+.plus{
+    font-size: 35px;
+} 
+.table-cnt{
+    color: #fff;
+}
+.p-c{
+    color: #fff;
+    padding-top: 3rem;
+   
+}
+.col{
+    color: #fff;
+}
+.background-7{
+        background-color: black;
+        padding: 0rem 10rem 4rem;
+        font-family:Montserrat ;
+}
+.min{
+     display: flex; 
+    justify-content: space-between;
+     /* background-color: #FF0000;  */
+    margin-top: -2rem;
+}
+.eng{
+    font-family: Montserrat;
+    padding: .3rem .5rem;
+    width: 100px;
+    background-color: transparent;
+ font-size: 18px;
+ font-weight: 300;
+ padding-left: 1rem; 
+    border:0.1px solid white; 
+ border-radius: 5px 5px;
+
+}
+
+
+
+
+
